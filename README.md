@@ -41,7 +41,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Database</summary>
+  <summary>Programming Language</summary>
   <ul>
     <li><a href="https://www.ruby-lang.org/en/">RUBY</a></li>
   </ul>
