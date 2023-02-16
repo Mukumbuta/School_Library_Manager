@@ -1,4 +1,3 @@
-# SCHOOL LIBRARY MANAGER
 
 <a name="readme-top"></a>
 
@@ -33,7 +32,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [ENUMERABLE] <a name="about-project"></a>
+# 📖 [SCHOOL LIBRARY MANAGER] <a name="about-project"></a>
 
 **[School Library]** This is a school library management system
 
