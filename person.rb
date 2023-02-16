@@ -3,18 +3,19 @@ require_relative 'nameable'
 class Person < Nameable
   attr_accessor :id, :name, :age, :parent_permission
 
-  def initialize(age, parent_permission: true, name: 'Unknown')
+  def initialize(age, name, parent_permission = true)
+    super()
     @id = generate_id
-    @name = name
+    @name = name || 'Unknown'
     @age = age
     @parent_permission = parent_permission
   end
 
   def can_use_services?
-    is_of_age? || @parent_permission
+    of_age? || @parent_permission
   end
 
-  def is_of_age?
+  def of_age?
     @age >= 18
   end
 
