@@ -1,4 +1,4 @@
-# ENUMERABLE
+# SCHOOL LIBRARY MANAGER
 
 <a name="readme-top"></a>
 
