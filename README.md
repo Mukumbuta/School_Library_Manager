@@ -35,7 +35,7 @@
 
 # 📖 [ENUMERABLE] <a name="about-project"></a>
 
-**[ENUMERABLE]** The Enumerable mixin provides collection classes with several traversal and searching methods, and with the ability to sort. The class must provide a method each, which yields successive members of the collection.
+**[School Library]** This is a school library management system
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,15 +51,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Test the same funcionality as methods in Enumerable]**
-
-### Live Demo <a name="live-demo"><a/>
-
-[Live Demo Link]()
-
-### Video <a name="video"><a/>
-
-[Video Link]()
+- **[Manages students and teachers for a particular school]**
+- **[Enforces parental control and entry restrictions]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,7 +72,7 @@ Terminal
 
 Clone this repository to your desired folder:
 
-cd [your-folder] https://github.com/Mukumbuta/Enumerable.git
+cd [your-folder] https://github.com/Mukumbuta/School_Library_Manager.git
 cd my-folder
 
 Test
@@ -96,17 +89,11 @@ rubocop
 - Twitter: [@Mukumbuta8](https://twitter.com/Mukumbuta8)
 - LinkedIn: [Mukumbuta](https://linkedin.com/in/mukumbuta)
 
-👤 **Riyana Abdi**
-
-- GitHub: [@githubhandle](https://github.com/ibtisam34)
-- Twitter: [@twitterhandle](https://twitter.com/Queenjin2)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/falis-abdikani/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Test the same funcionality as methods in Enumerable]**
+- [ ] **[Borrow books functionality and library stock management]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,6 +119,6 @@ Hat tip to anyone whose code snippet was used for inspiration.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Mukumbuta/Enumerable/blob/Enumerable_Module/MIT.md) licensed.
+This project is [MIT](https://github.com/Mukumbuta/School_Library_Manager/blob/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
