@@ -1,15 +1,5 @@
-# ENUMERABLE
 
 <a name="readme-top"></a>
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 # 📗 Table of Contents
 
@@ -33,7 +23,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [ENUMERABLE] <a name="about-project"></a>
+# 📖 [SCHOOL LIBRARY MANAGER] <a name="about-project"></a>
 
 **[School Library]** This is a school library management system
 
@@ -42,7 +32,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Database</summary>
+  <summary>Programming Language</summary>
   <ul>
     <li><a href="https://www.ruby-lang.org/en/">RUBY</a></li>
   </ul>

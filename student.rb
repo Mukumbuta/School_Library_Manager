@@ -1,6 +1,5 @@
 # Student class that extends Person
 require_relative 'person'
-
 class Student < Person
   attr_accessor :classroom
 
