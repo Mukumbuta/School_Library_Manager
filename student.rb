@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Student class that extends Person
 require_relative 'person'
 class Student < Person

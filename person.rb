@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Define the base Decorator class that inherits from Nameable
 require_relative 'nameable'
 class Person < Nameable

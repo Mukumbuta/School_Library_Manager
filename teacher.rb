@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Teacher class that extends Person
 require_relative 'person'
 
