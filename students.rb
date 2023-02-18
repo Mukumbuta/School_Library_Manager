@@ -1,6 +1,7 @@
 # Named Students to differentiate it from the already existing Student class
-class Students
-  attr_accessor :name, :classroom, :rentals
+require_relative 'person'
+class Students < Person
+  attr_reader :name, :classroom, :rentals
 
   def initialize(name)
     @name = name

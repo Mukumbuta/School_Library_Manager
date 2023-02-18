@@ -1,11 +1,11 @@
 # Student class that extends Person
 require_relative 'person'
 class Student < Person
-  attr_accessor :classroom
+  attr_reader :classroom
 
-  def initialize(age, classroom, parent_permission: true, name: 'Unknown')
-    super(age, parent_permission: parent_permission, name: name)
+  def initialize(classroom)
     @classroom = classroom
+    classroom.students << self
   end
 
   def play_hooky
