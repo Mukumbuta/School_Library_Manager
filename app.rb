@@ -39,8 +39,10 @@ class App
       @people << Students.new(name)
       puts 'Student {name} has been created.'
     when 't'
-      @people << Teacher.new(name)
-      puts "Teacher #{name} has been created."
+      age = gets.chomp.to_i
+      specialization = gets.chomp.downcase
+      @people << Teacher.new(age, specialization, name)
+      puts "Teacher #{name} with sepcialization #{specialization} has been created."
     else
       puts 'Invalid input. Please try again.'
     end
