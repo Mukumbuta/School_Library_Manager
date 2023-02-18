@@ -4,6 +4,7 @@ class Students < Person
   attr_reader :name, :classroom, :rentals
 
   def initialize(name)
+    super()
     @name = name
     @classroom = nil
     @rentals = []
