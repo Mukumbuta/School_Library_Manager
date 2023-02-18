@@ -37,8 +37,8 @@ class App
     case type
     when 's'
       age = gets.chomp
-      permission = gets.chomp
-      @people << Students.new(name)
+
+      @people << Students.new(age, name)
       puts 'Student {name} has been created.'
     when 't'
       age = gets.chomp.to_i
