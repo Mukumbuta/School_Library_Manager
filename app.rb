@@ -36,6 +36,8 @@ class App
 
     case type
     when 's'
+      age = gets.chomp
+      permission = gets.chomp
       @people << Students.new(name)
       puts 'Student {name} has been created.'
     when 't'
@@ -54,7 +56,7 @@ class App
     @title = gets.chomp
     puts 'Enter the author of the book:'
     @author = gets.chomp
-    book << Book.new(title, author)
+    @books << Book.new(title, author)
     puts "Book #{title} by #{author} has been added to the collection"
   end
 
