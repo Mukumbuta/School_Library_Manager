@@ -8,7 +8,7 @@ class Student < Person
     super()
     @name = name
     @rentals = []
-    @classroom = nil
+    @classroom = []
   end
 
   def classroom=(classroom)
