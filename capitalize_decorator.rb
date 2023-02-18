@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # Define the CapitalizeDecorator class that inherits from Decorator
 require_relative 'base_decorator'
 class CapitalizeDecorator < Decorator
