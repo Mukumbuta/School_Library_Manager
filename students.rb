@@ -1,10 +1,18 @@
 # Named Students to differentiate it from the already existing Student class
-class Students
-  attr_accessor :name, :classroom, :rentals
+require_relative 'person'
+
+class Student < Person
+  attr_reader :name, :rentals, :classroom
 
   def initialize(name)
+    super()
     @name = name
-    @classroom = nil
     @rentals = []
+    @classroom = []
+  end
+
+  def classroom=(classroom)
+    @classroom = classroom
+    classroom.students.push(self) unless classroom.students.include?(self)
   end
 end
