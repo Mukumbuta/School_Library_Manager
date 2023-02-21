@@ -1,7 +1,7 @@
 # Define the base Decorator class that inherits from Nameable
 require_relative 'nameable'
 class Person < Nameable
-  attr_accessor :id, :name, :age, :parent_permission
+  attr_accessor :age, :name, :rentals
 
   def initialize(age, name, parent_permission: true)
     super()
@@ -9,9 +9,10 @@ class Person < Nameable
     @name = name || 'Unknown'
     @age = age
     @parent_permission = parent_permission
+    @rentals = []
   end
 
-  def can_use_services?
+  def can_use_services?(_id)
     of_age? || @parent_permission
   end
 
